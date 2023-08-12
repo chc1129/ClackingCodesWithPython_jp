@@ -1,0 +1,20 @@
+$ py
+Python 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+>>> animals = ['aardvark', 'anteater', 'albert']
+>>> animals[2] = 9999
+>>> animals
+['aardvark', 'anteater', 9999]
+>>>
+>>>
+>>> spam = 'Hello world!'
+>>> spam = spam
+>>>
+>>>
+>>> spam = 'Hello world!'
+>>> spam = spam[:6] + 'X' + spam[7:]
+>>> spam
+'Hello Xorld!'
+>>>
+>>>

@@ -1,0 +1,18 @@
+$ py
+Python 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+>>> 'Hello'.upper()
+'HELLO'
+>>> 'Hello'.lower()
+'hello'
+>>>
+>>> 'hello'.title()
+'Hello'
+>>> 'HELLO'.title()
+'Hello'
+>>> 'extra!extra!man bites shark!'.title()
+'Extra!Extra!Man Bites Shark!'
+>>>
+>>>
+>>>

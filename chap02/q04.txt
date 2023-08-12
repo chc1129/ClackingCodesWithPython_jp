@@ -1,0 +1,13 @@
+chicu@DESKTOP-QLFTSH2:~/work/prg/python/CrackingCodes/chap02$ py
+Python 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+>>>
+>>> spam = 20
+>>> spam + 20
+40
+>>> SPAM = 30
+>>> spam
+20
+>>>
+

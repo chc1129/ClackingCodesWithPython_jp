@@ -1,0 +1,31 @@
+$ py
+Python 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+>>> import random
+>>> random.randint(1, 20)
+1
+>>> random.randint(1, 20)
+8
+>>> random.randint(100, 200)
+200
+>>>
+>>>
+>>> import random
+>>> random.seed(42)
+>>> numbers = []
+>>> for i in range(20):
+...     numbers.append(random.randint(1, 10))
+...
+>>> numbers
+[2, 1, 5, 4, 4, 3, 2, 9, 2, 10, 7, 1, 1, 2, 4, 4, 9, 10, 1, 9]
+>>>
+>>> random.seed(42)
+>>> numbers = []
+>>> for i in range(20):
+...     numbers.append(random.randint(1, 10))
+...
+>>> numbers
+[2, 1, 5, 4, 4, 3, 2, 9, 2, 10, 7, 1, 1, 2, 4, 4, 9, 10, 1, 9]
+>>>
+>>>

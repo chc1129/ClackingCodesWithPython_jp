@@ -1,0 +1,62 @@
+$ py
+Python 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+>>> 10 > 5 and 2 < 4
+True
+>>>
+>>> 10 > 5 and 4 != 4
+False
+>>>
+>>>
+>>> 10 > 5 or 4 != 4
+True
+>>>
+>>> 10 < 5 or 4 != 4
+False
+>>>
+>>> not 10 > 5
+False
+>>> not 10 < 5
+True
+>>> not False
+True
+>>> not not False
+False
+>>>
+>>> not not not not not False
+True
+>>>
+>>>
+>>>
+>>> if 10 > 5:
+...     if 2 < 4:
+...             print('Hello')
+...
+Hello
+>>> if 10 > 5 and 2 < 4:
+...     print('Hello!')
+...
+Hello!
+>>>
+>>>
+>>> if 4 != 4:
+...     print('Hello!')
+... elif 10 > 5:
+...     print('Hello!!)
+  File "<stdin>", line 4
+    print('Hello!!)
+          ^
+SyntaxError: unterminated string literal (detected at line 4)
+>>>
+>>> if 4 != 4 or 10 > 5:
+...     print('Hello!')
+...
+Hello!
+>>>
+>>> not False and False # not Falseが最初に評価される
+False
+>>> not (False and False) # (False and False)が最初に評価される
+True
+>>>
+>>>

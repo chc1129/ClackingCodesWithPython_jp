@@ -1,0 +1,26 @@
+$ py
+Python 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+>>> animals = ['aardvark', 'anteater', 'antelope', 'albert']
+>>> len(animals)
+4
+>>>
+>>>
+>>> animals = ['aardvark', 'anteater', 'antelope', 'albert']
+>>> 'anteater' in animals
+True
+>>> 'anteater' not in animals
+False
+>>> 'anteat' in animals
+False
+>>> 'anteat' in animals[1]
+True
+>>> 'delicious spam' in animals
+False
+>>>
+>>> animals = []
+>>> len(animals)
+0
+>>>
+>>>

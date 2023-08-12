@@ -1,0 +1,15 @@
+$ py
+Python 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+>>> import os
+>>> os.path.exists('spam.txt')
+True
+>>> os.path.exists('C:\\Windows\\System32\\calc.exe') # Windowsの場合
+False
+>>> os.path.exists('/usr/loal/bin/idle3') # macOSの場合
+False
+>>> os.path.exists('/user/bin/idle3') # Linuxの場合
+False
+>>>
+>>>

@@ -1,0 +1,24 @@
+$ py
+Python 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+>>>
+>>> 'Hello %s!' % ('world')
+'Hello world!'
+>>>
+>>> 'Hello ' + 'world' + '!'
+'Hello world!'
+>>>
+>>> 'The %s ate the %s that ate the %s.' % ('dog', 'cat', 'rat')
+'The dog ate the cat that ate the rat.'
+>>>
+>>>
+>>> '%s had %s pies.' % ('Alice', 42)
+'Alice had 42 pies.'
+>>>
+>>> 'Alice' + ' had ' + 42 + ' pies.'
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: can only concatenate str (not "int") to str
+>>>
+>>>

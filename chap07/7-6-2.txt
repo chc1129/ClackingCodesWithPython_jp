@@ -1,0 +1,18 @@
+$ py
+Python 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+>>> spam = [['dog', 'cat'], [1, 2, 3]]
+>>> spam[0]
+['dog', 'cat']
+>>> spam[0][0]
+'dog'
+>>> spam[0][1]
+'cat'
+>>> spam[1][1]
+2
+>>> spam[1][0]
+1
+>>>
+>>>
+>>>

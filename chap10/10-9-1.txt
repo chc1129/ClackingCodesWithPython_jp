@@ -1,0 +1,14 @@
+$ py
+Python 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+>>> import time
+>>> time.time()
+1691859082.713457
+>>> time.time()
+1691859088.532971
+>>>
+>>> 1691859088.532971 - 1691859082.713457
+5.81951379776001
+>>>
+>>>

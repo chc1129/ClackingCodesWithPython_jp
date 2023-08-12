@@ -1,0 +1,37 @@
+$ py
+Python 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+>>> 21 / 7
+3.0
+>>>
+>>> 22 / 5
+4.4
+>>>
+>>> round(4.2)
+4
+>>>
+>>> round(4.9)
+5
+>>>
+>>> round(5.0)
+5
+>>>
+>>> round(22 / 5)
+4
+>>>
+>>>
+>>> import math
+>>> math.floor(4.0)
+4
+>>> math.floor(4.2)
+4
+>>> math.floor(4.9)
+4
+>>>
+>>> math.ceil(4.2)
+5
+>>> math.ceil(4.9)
+5
+>>>
+>>>
