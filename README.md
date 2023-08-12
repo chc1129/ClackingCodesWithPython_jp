@@ -1,8 +1,8 @@
 # ClackingCodesWithPython_jp
 
 
-Pythonでいかにして番号を破るか
-古典暗号解読プログラムを自作する本
+## Pythonでいかにして番号を破るか
+ 古典暗号解読プログラムを自作する本
 
 Al Sweigart／翻訳：IPUSIRON
 

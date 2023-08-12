@@ -1,0 +1,19 @@
+$ py
+Python 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 'Foobar'.startswith('Foo') # 'Foobar'は'Foo'で始まるか
+True
+>>> 'Foo'.startswith('Foobar') # 'Foo'は'Foobar'で始まるか
+False
+>>> 'Foobar'.startswith('foo') # 'Foobar'は'foo'で始まるか
+False
+>>> 'bar'.endswith('Foobar')    # 'bar'は'Foobar'で終わるか
+False
+>>> 'Foobar'.endswith('bar')    # 'Foobar'は'bar'で終わるか
+True
+>>>
+>>> 'The quick brown fox jumped over the yellow lazy dog'.title()
+'The Quick Brown Fox Jumped Over The Yellow Lazy Dog'
+>>>
+>>>
+>>>
