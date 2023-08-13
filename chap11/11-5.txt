@@ -1,0 +1,19 @@
+$ py
+Python 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+>>> spam = {'key1': 'This is a value', 'key2': 42}
+>>> spam['key1']
+'This is a value'
+>>>
+>>>
+>>> spam = {'hello': 42}
+>>> eggs = spam
+>>> eggs['hello'] = 99
+>>> eggs
+{'hello': 99}
+>>> spam
+{'hello': 99}
+>>>
+>>>
+>>>

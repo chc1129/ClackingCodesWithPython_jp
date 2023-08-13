@@ -1,0 +1,13 @@
+$ py
+Python 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> listVal = ['spam', 'eggs', 'bacon']
+>>> dictionaryVal = {'spam':0, 'eggs':0, 'bacon':0}
+>>>
+>>>
+>>> dictionaryVal
+{'spam': 0, 'eggs': 0, 'bacon': 0}
+>>>
+>>>
+>>>
+>>>

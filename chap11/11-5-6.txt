@@ -1,0 +1,13 @@
+$ py
+Python 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+>>> spam = {'name': 'al', 'age': 99}
+>>> for k in spam:
+...     print(k, spam[k])
+...
+name al
+age 99
+>>>
+>>>
+>>>

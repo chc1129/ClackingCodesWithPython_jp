@@ -1,0 +1,25 @@
+$ py
+Python 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+>>> spam = {42: 'hello'}
+>>> print(spam[42])
+hello
+>>>
+>>> spam[42] = 'goodbye'
+>>> print(spam[42])
+goodbye
+>>>
+>>>
+>>> foo = {'fizz': {'name': 'Al', 'age': 144}, 'moo':['a', 'brown', 'cow']}
+>>> foo['fizz']
+{'name': 'Al', 'age': 144}
+>>> foo['fizz']['name']
+'Al'
+>>> foo['moo']
+['a', 'brown', 'cow']
+>>> foo['moo'][1]
+'brown'
+>>>
+>>>
+>>>

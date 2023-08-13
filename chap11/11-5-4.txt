@@ -1,0 +1,16 @@
+$ py
+Python 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+>>> eggs = {'foo': 'milk', 'bar': 'bread'}
+>>> 'foo' in eggs
+True
+>>> 'milk' in eggs
+False
+>>> 'blah blah blah' in eggs
+False
+>>> 'blah blah blah' not in eggs
+True
+>>>
+>>>
+>>>

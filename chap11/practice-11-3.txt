@@ -1,0 +1,14 @@
+$ py
+Python 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+>>> spam = {'name': 'Zophie', 'species':'cat', 'age':8} # 問題文にある辞書spamの定義
+>>> for key in spam:
+...     print(spam[key])
+...
+Zophie
+cat
+8
+>>>
+>>>
+>>>

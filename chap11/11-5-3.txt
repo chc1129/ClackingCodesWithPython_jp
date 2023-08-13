@@ -1,0 +1,18 @@
+$ py
+Python 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+>>> spam = {}
+>>> len(spam)
+0
+>>> spam['name'] = 'Al'
+>>> spam['pet']  = 'Zophie te cat'
+>>> spam['age']  = 89
+>>> len(spam)
+3
+>>>
+>>> spam
+{'name': 'Al', 'pet': 'Zophie te cat', 'age': 89}
+>>>
+>>>
+>>>

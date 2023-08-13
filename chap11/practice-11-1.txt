@@ -1,0 +1,8 @@
+$ py
+Python 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> spam = {'name': 'Al'} # キーを'name', 値を'Al'として辞書spamを定義
+>>> print(spam['name'])   # キーが'name'である辞書spamの値を表示
+Al
+>>>
+>>>

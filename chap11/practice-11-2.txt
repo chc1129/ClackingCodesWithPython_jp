@@ -1,0 +1,10 @@
+$ py
+Python 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+>>> spam = {'eggs': 'bacon'} # キーを'eggs', 値を'bacon'として辞書spamを定義
+>>> print('bacon' in spam)   # 辞書spamに'bacon'というキーが存在するかを表示
+False
+>>>
+>>>
+>>>
