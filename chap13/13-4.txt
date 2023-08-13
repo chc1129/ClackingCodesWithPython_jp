@@ -1,0 +1,23 @@
+$ py
+Python 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> spam, eggs = 42, 'Hello'
+>>> spam
+42
+>>> eggs
+'Hello'
+>>> a, b, c, d = ['Alice', 'Brienne', 'Carol', 'Danielle']
+>>> a
+'Alice'
+>>> d
+'Danielle'
+>>>
+>>> spam = 'hello'
+>>> eggs = 'goodbye'
+>>> spam, eggs = eggs, spam
+>>> spam
+'goodbye'
+>>> eggs
+'hello'
+>>>
+>>>

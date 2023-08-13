@@ -1,0 +1,15 @@
+$ py
+Python 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+>>> def gcd(a, b):
+...     while a != 0:
+...             a, b = b % a, a
+...     return b
+...
+>>> gcd(24, 32)
+8
+>>> gcd(409119243, 87780243)
+6837
+>>>
+>>>
