@@ -1,0 +1,13 @@
+$ py
+Python 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+>>> 'Hello world'.strip('o')
+'Hello world'
+>>> 'oh, Hello world'.strip('o')
+'h, Hello world'
+>>> 'me, too'.strip('o')
+'me, t'
+>>>
+>>>
+>>>

@@ -1,0 +1,18 @@
+$ py
+Python 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+>>> spam = """Dear Alice,
+... Why did you dress up my hamster in doll clothing?
+... I look at Mr. Fuzz and think, "I know this was Alice's doing."
+... sincerely,
+... Brienne"""
+>>> print(spam)
+Dear Alice,
+Why did you dress up my hamster in doll clothing?
+I look at Mr. Fuzz and think, "I know this was Alice's doing."
+sincerely,
+Brienne
+>>>
+>>>
+>>>
