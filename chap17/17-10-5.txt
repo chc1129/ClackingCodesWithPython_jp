@@ -1,0 +1,5 @@
+>>> letterMapping = simpleSubHacker.removeSolvedLettersFromMapping(intersectedMapping)
+>>> letterMapping
+{'A': [], 'B': ['S'], 'C': ['T'], 'D': [], 'E': [], 'F': [], 'G': ['O'], 'H': ['K'], 'I': ['E'], 'J': [], 'K': [], 'L': ['L', 'N'], 'M': ['A', 'D'], 'N': ['U'], 'O': ['A', 'B'], 'P': ['I'], 'Q': ['N', 'C', 'R'], 'R': [], 'S': ['P'], 'T': [], 'U': [], 'V': [], 'W': [], 'X': ['D', 'R'], 'Y': [], 'Z': []}
+>>>
+

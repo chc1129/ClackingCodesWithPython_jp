@@ -1,0 +1,7 @@
+>>> 'mississippi'.replace('s', 'x')
+'mixxixxippi'
+>>> 'dog'.replace('d', 'bl')
+'blog'
+>>> 'jogger'.replace('ger', 's')
+'jogs'
+>>>

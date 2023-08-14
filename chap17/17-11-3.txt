@@ -1,0 +1,11 @@
+>>> simpleSubHacker.decryptWithCipherletterMapping('OLQIHXIRCKGNZ PLQRZKBZB MPBKSSIPLC', intersectedMapping)
+'___EK_E_T_OU_ I_____S_S _IS_PPEI_T'
+>>>
+>>>
+>>> intersectedMapping['M'] = []
+>>> intersectedMapping['S'] = []
+>>>
+>>> simpleSubHacker.decryptWithCipherletterMapping('OLQIHXIRCKGNZ PLQRZKBZB MPBKSSIPLC', intersectedMapping)
+'___EK_E_T_OU_ I_____S_S _IS___EI_T'
+>>>
+>>>

@@ -1,0 +1,63 @@
+$ py
+Python 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+>>> import simpleSubHacker
+>>> letterMapping1 = simpleSubHacker.getBlankCipherletterMapping()
+>>> letterMapping1
+{'A': [], 'B': [], 'C': [], 'D': [], 'E': [], 'F': [], 'G': [], 'H': [], 'I': [], 'J': [], 'K': [], 'L': [], 'M': [], 'N': [], 'O': [], 'P': [], 'Q': [], 'R': [], 'S': [], 'T': [], 'U': [], 'V': [], 'W': [], 'X': [], 'Y': [], 'Z': []}
+>>>
+>>>
+>>> import makeWordPatterns
+>>> makeWordPatterns.getWordPattern('OLQIHXIRCKGNZ')
+'0.1.2.3.4.5.3.6.7.8.9.10.11'
+>>>
+>>>
+>>> import wordPatterns
+>>> candidates = wordPatterns.allPatterns['0.1.2.3.4.5.6.7.8.9.10.11']
+>>> candidates
+['AMBIDEXTROUS', 'BANKRUPTCIES', 'BLUESTOCKING', 'CONFIGURABLE', 'CONSIDERABLY', 'CUSTOMIZABLE', 'EXCLUSIONARY', 'FLOWCHARTING', 'INCOMPUTABLE', 'PRODUCTIVELY', 'QUESTIONABLY', 'RECOGNIZABLY', 'UNPROFITABLE', 'UPHOLSTERING']
+>>>
+>>>
+>>> simpleSubHacker.addLettersToMapping(letterMapping1, 'OLIHXIRCKGNZ', candidates[0])
+>>> letterMapping1
+{'A': [], 'B': [], 'C': ['R', 'T'], 'D': [], 'E': [], 'F': [], 'G': ['U', 'O'], 'H': ['D', 'I'], 'I': ['I', 'X', 'B', 'E'], 'J': [], 'K': ['O', 'R'], 'L': ['M'], 'M': [], 'N': ['S', 'U'], 'O': ['A'], 'P': [], 'Q': ['B'], 'R': ['T', 'X'], 'S': [], 'T': [], 'U': [], 'V': [], 'W': [], 'X': ['E', 'D'], 'Y': [], 'Z': ['S']}
+>>>
+>>>
+>>> simpleSubHacker.addLettersToMapping(letterMapping1, 'OLIHXIRCKGNZ', candidates[1])
+>>> letterMapping1
+{'A': [], 'B': [], 'C': ['R', 'T'], 'D': [], 'E': [], 'F': [], 'G': ['U', 'O', 'I'], 'H': ['D', 'I', 'K'], 'I': ['I', 'X', 'B', 'E', 'N', 'U'], 'J': [], 'K': ['O', 'R', 'C'], 'L': ['M', 'A'], 'M': [], 'N': ['S', 'U', 'E'], 'O': ['A', 'B'], 'P': [], 'Q': ['B'], 'R': ['T', 'X', 'P'], 'S': [], 'T': [], 'U': [], 'V': [], 'W': [], 'X': ['E', 'D', 'R'], 'Y': [], 'Z': ['S']}
+>>>
+>>>
+>>> letterMapping2 = simpleSubHacker.getBlankCipherletterMapping()
+>>> wordPat = makeWordPatterns.getWordPattern('PLQRZKBZB')
+>>> candidates = wordPatterns.allPatterns[wordPat]
+>>> candidates
+['CONVERSES', 'INCREASES', 'PORTENDED', 'UNIVERSES']
+>>> for candidate in candidates:
+...     simpleSubHacker.addLettersToMapping(letterMapping2, 'PLQRZKBZB', candidate)
+...
+>>> letterMapping2
+{'A': [], 'B': ['S', 'D'], 'C': [], 'D': [], 'E': [], 'F': [], 'G': [], 'H': [], 'I': [], 'J': [], 'K': ['R', 'A', 'N'], 'L': ['O', 'N'], 'M': [], 'N': [], 'O': [], 'P': ['C', 'I', 'P', 'U'], 'Q': ['N', 'C', 'R', 'I'], 'R': ['V', 'R', 'T'], 'S': [], 'T': [], 'U': [], 'V': [], 'W': [], 'X': [], 'Y': [], 'Z': ['E']}
+>>>
+>>>
+>>> intersectedMapping = simpleSubHacker.intersectMappings(letterMapping1, letterMapping2)
+>>> intersectedMapping
+{'A': [], 'B': ['S', 'D'], 'C': ['R', 'T'], 'D': [], 'E': [], 'F': [], 'G': ['U', 'O', 'I'], 'H': ['D', 'I', 'K'], 'I': ['I', 'X', 'B', 'E', 'N', 'U'], 'J': [], 'K': ['R'], 'L': [], 'M': [], 'N': ['S', 'U', 'E'], 'O': ['A', 'B'], 'P': ['C', 'I', 'P', 'U'], 'Q': [], 'R': ['T'], 'S': [], 'T': [], 'U': [], 'V': [], 'W': [], 'X': ['E', 'D', 'R'], 'Y': [], 'Z': []}
+>>>
+>>>
+>>> letterMapping3 = simpleSubHacker.getBlankCipherletterMapping()
+>>> wordPat = makeWordPatterns.getWordPattern('MPBKSSIPLC')
+>>> candidates = wordPatterns.allPatterns[wordPat]
+>>> for i in range(len(candidates)):
+...     simpleSubHacker.addLettersToMapping(letterMapping3, 'MPBKSSIPLC', candidates[i])
+...
+>>> letterMapping3
+{'A': [], 'B': ['M', 'S'], 'C': ['Y', 'T'], 'D': [], 'E': [], 'F': [], 'G': [], 'H': [], 'I': ['E', 'O'], 'J': [], 'K': ['I', 'A'], 'L': ['L', 'N'], 'M': ['A', 'D'], 'N': [], 'O': [], 'P': ['D', 'I'], 'Q': [], 'R': [], 'S': ['T', 'P'], 'T': [], 'U': [], 'V': [], 'W': [], 'X': [], 'Y': [], 'Z': []}
+>>>
+>>>
+>>> intersectedMapping = simpleSubHacker.intersectMappings(intersectedMapping, letterMapping3)
+>>> intersectedMapping
+{'A': [], 'B': ['S'], 'C': ['T'], 'D': [], 'E': [], 'F': [], 'G': ['U', 'O', 'I'], 'H': ['D', 'I', 'K'], 'I': ['E'], 'J': [], 'K': [], 'L': ['L', 'N'], 'M': ['A', 'D'], 'N': ['S', 'U', 'E'], 'O': ['A', 'B'], 'P': ['I'], 'Q': [], 'R': ['T'], 'S': ['T', 'P'], 'T': [], 'U': [], 'V': [], 'W': [], 'X': ['E', 'D', 'R'], 'Y': [], 'Z': []}
+>>>
+>>>
