@@ -1,0 +1,40 @@
+$ py
+Python 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+>>> def spam():
+...     print('Hello!')
+...
+>>> spam()
+Hello!
+>>> eggs = spam
+>>> eggs()
+Hello!
+>>>
+>>> def doMath(func):
+...     return func(10, 5)
+...
+>>> def adding(a, b):
+...     return a + b
+...
+>>> def subtracting(a, b):
+...     return a - b
+...
+>>> doMath(adding)
+15
+>>> doMath(subtracting)
+5
+>>>
+>>>
+>>> spam = ['C', 'B', 'A']
+>>> spam.sort()
+>>> spam
+['A', 'B', 'C']
+>>>
+>>>
+>>> ETAOIN = 'ETAOINSHRDLCUMWFGYPBVKJXQZ'
+>>> spam.sort(key=ETAOIN.find)
+>>> spam
+['A', 'C', 'B']
+>>>
+>>>

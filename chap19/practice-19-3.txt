@@ -1,0 +1,11 @@
+$ py
+Python 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+>>> spam = [4, 6, 2, 8]
+>>> spam.sort(reverse=True)
+>>> spam
+[8, 6, 4, 2]
+>>>
+>>>
+>>>
