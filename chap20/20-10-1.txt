@@ -1,0 +1,13 @@
+$ py
+Python 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+>>> set([1, 2, 3, 4])
+{1, 2, 3, 4}
+>>> spam = list(set([2, 2, 2, 'cats', 2, 2]))
+>>> spam
+['cats', 2]
+>>>
+>>>
+>>>
+>>>
