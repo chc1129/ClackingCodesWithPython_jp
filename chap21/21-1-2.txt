@@ -1,0 +1,29 @@
+$ py
+Python 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+>>> import secrets
+>>> secrets.randbelow(10)
+4
+>>> secrets.randbelow(10)
+7
+>>> secrets.randbelow(10)
+3
+>>>
+>>>
+>>> import secrets
+>>> secrets.choice('ABCDEFGHIJKLMNOPQRSTUVWXYZ')
+'B'
+>>> secrets.choice(['cat', 'dog', 'mouse'])
+'dog'
+>>>
+>>> import secrets
+>>> otp = ''
+>>> for i in range(55):
+...     otp += secrets.choice('ABCDEFGHIJKLMNOPQRSTUVWXYZ')
+...
+>>> otp
+'SUGKCCTHGNPZBAFJKGTNLMFTLJRWAMQQJEUAGDQZHTZUSDQOOSPQKWH'
+>>>
+>>>
+>>>
