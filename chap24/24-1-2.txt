@@ -1,0 +1,34 @@
+$ py
+Python 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+>>> SYMBOLS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890 !?.'
+>>> len(SYMBOLS)
+66
+>>> SYMBOLS[0]
+'A'
+>>> SYMBOLS[30]
+'e'
+>>>
+>>> blockInteger = 0
+>>> len(SYMBOLS)
+66
+>>> SYMBOLS.index('H')
+7
+>>> 7 * (66 ** 0)
+7
+>>> blockInteger = blockInteger + 7
+>>>
+>>> SYMBOLS.index('o')
+40
+>>> blockInteger += 40 * (66 ** 1)
+>>> blockInteger
+2647
+>>>
+>>> blockInteger += SYMBOLS.index('w') * (len(SYMBOLS) ** 2)
+>>> blockInteger += SYMBOLS.index('d') * (len(SYMBOLS) ** 3)
+>>> blockInteger += SYMBOLS.index('y') * (len(SYMBOLS) ** 4)
+>>> blockInteger
+957285919
+>>>
+>>>
